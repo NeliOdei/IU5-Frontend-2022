@@ -9,7 +9,7 @@
  */
 function getMinMax(str) {
     let splitted = str.split(" ");
-    l=splitted.length;
+    l=splitted.length
     for (let i=0; i<l; i++){
         splitted[i] = parseFloat(splitted[i]);
     }
@@ -25,7 +25,7 @@ function getMinMax(str) {
       }
     }
     str = {
-        min: x,
+        min:  x,
         max: y,
     };
     return str;

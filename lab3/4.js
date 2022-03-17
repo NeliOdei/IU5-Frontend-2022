@@ -15,6 +15,7 @@ function prettySum(arr) {
         x+=arr[i];
         }
     }
+
     x=x*arr[l-1];
     return x;
 }
