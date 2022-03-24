@@ -12,6 +12,7 @@ function multiplyArray(arr, n) {
         if (typeof arr[i] == 'number')
             arr[i] *= n;
     }
+
     return arr;
 }
 

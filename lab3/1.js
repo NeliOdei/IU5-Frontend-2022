@@ -7,6 +7,7 @@
  */
  function capitalize(str) {
     const splitted = str.split(" ");
+
     l=splitted.length;
     str = "";
     for (let i=0; i<l; i++){
@@ -16,7 +17,6 @@
         str+=" ";
     }
 }
-
     return str;
 }
 module.exports = capitalize;
