@@ -17,7 +17,16 @@
 */
 
 function get1DArray(arr) {
-    //code here
+let str = arr.join(',');
+str=str.replace(/,/g , " ");
+var arr1 = str.split(' ');
+for (let i=0; i<arr1.length; i++){
+    if ((parseFloat(arr1[i])==parseFloat(arr1[i]))){ /* NaN не может быть равен NaN*/
+    arr1[i] = +arr1[i];
+    }
+}
+arr1 = arr1.filter(Boolean)
+ return arr1;
 }
 
 module.exports = get1DArray;
