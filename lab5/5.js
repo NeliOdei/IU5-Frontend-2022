@@ -22,7 +22,25 @@
  */
 
 function makeRoute(arr) {
-    //code here
+    let arrFrom = arr.map(item => item.from);
+    let arrTo = arr.map(item => item.to);
+    let arr2=[];
+    let x=0;
+    for (let i=0; i<arrFrom.length; i++){
+        if (!arrTo.includes(arrFrom[i])) {
+            arr2.push(arr[i]);
+            x=arrTo[i];
+        }
+    }
+for (let i=0; i<arrFrom.length; i++){
+    for (let i=0; i<arrFrom.length; i++){
+        if (x==arrFrom[i]) {
+            arr2.push(arr[i]);
+            x=arrTo[i];
+            }
+    }
+}
+return arr2;
 }
 
 module.exports = makeRoute;

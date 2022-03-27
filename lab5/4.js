@@ -13,8 +13,22 @@
  * memozedAdd(2) -> {cache: true, result: 4}
  */
 
-function memoize(func) {
-    //code here
+ function memoize(func) {
+    result = NaN;
+    n1 = NaN;
+    cache = false;
+return function(n) {
+    if (n == n1) {
+       cache = true;
+        return { cache:  cache, result: result }
+    }
+    else {
+        cache = false;
+        n1 = n;
+        result = func(n);
+        return { cache: cache, result: result }
+    }
 }
 
+}
 module.exports = memoize;
