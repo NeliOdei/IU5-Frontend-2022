@@ -12,6 +12,7 @@
  * console.log(curry(add)(1)(2, 3)); //6
  * console.log(curry(add)(1, 2, 3)); //6
  */
+<<<<<<< HEAD
     function curry(func) {
         return function f1(...args) {
           if (args.length >= func.length) {
@@ -23,6 +24,10 @@
               }
           }
         }
+=======
+function curry(f) {
+    //code here
+>>>>>>> d28ce69b730b5df28be6bcceec5b89049029a70f
 }
 
 module.exports = curry;
