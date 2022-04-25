@@ -1,0 +1,96 @@
+.body{
+
+}
+.tasks {
+    background-image: linear-gradient(to right,#c0bfa5 0%,#a5ccbc 33%,#589192 66%,#215c5c 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+.task{
+    background-color:  rgba(90, 51, 67, 0.568);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.header{
+    font-family: Merriweather;
+    color: white;
+}
+.square{
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 40px;
+}
+.square__2{
+    width: 100px;
+    height: 100px;
+    font-family: Merriweather;
+    font-size: 100px;
+    color:  rgb(90, 51, 67);
+}
+.button1 {
+    font-family: Merriweather;
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .spisok-hide{
+	overflow: hidden;
+    height: 0px;
+  }
+  .list{
+    height: 30px;
+    background-color: #fff;
+    color:  rgb(90, 51, 67);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50px;
+
+  }
+  .spisok-show{
+    margin-top: 12px;
+	padding: 8px;
+    border-radius: 10px;
+	height: 120px;
+	transition: .2s;
+    overflow-y: scroll;
+  }
+  .square__3{
+      width: 800px;
+      height: 800px;
+      padding: 0px;
+  }
+  .sircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(90, 51, 67);
+    position: relative;
+  }
+  .spisok-show2{
+    margin-top: 12px;
+	padding: 8px;
+    border-radius: 10px;
+	transition: .2s;
+    overflow-y: scroll;
+    height: 800px;
+  }
+
