@@ -1,0 +1,109 @@
+.main{
+    background-image: linear-gradient(to right,#c0bfa5 0%,#a5ccbc 33%,#589192 66%,#215c5c 100%);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Merriweather;
+
+}
+.header1{
+    color: white;
+    background-color: rgba(90, 51, 67, 0.568);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+}
+.inp1{
+    font-family: Merriweather;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(90, 51, 67, 0.568);
+    margin: 20px;
+    padding: 20px;
+    border-color:rgba(90, 51, 67, 0.568);
+    width: 80%;
+    height: 25px;
+}
+.form-row{
+    display: flex;
+}
+.butt1{
+    font-family: Merriweather;
+    margin: 20px;
+    padding: 20px;
+    height: 68px;
+    background: #589192;
+    border: none;
+    width: 12.5%;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    outline: none;
+}
+.butt1:hover {
+    background: rgba(90, 51, 67, 0.568);
+
+ }
+.imag2 img{
+ height: 30px;
+ }
+::placeholder{
+    color: white;
+}
+.wrap1{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgba(90, 51, 67, 0.568);
+    width: 50%;
+}
+.card{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.511);
+    width: 30%;
+}
+@media (max-width: 1230px){
+    .wrap1{
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .card{
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 530px){
+    .imag2 img{
+        height: 20px;
+        margin: -10px;
+        }
+        .butt1{
+          justify-content: center;
+        }
+}
+@media (max-width: 310px){
+    .wrap1 {
+        padding: 10px;
+        width: 80%;
+    }
+    .card {
+        padding: 5px;
+        width: 95%;
+    }
+    ::placeholder{
+        color: transparent;
+
+    }
+}
